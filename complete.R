@@ -23,5 +23,5 @@ complete <- function (dir, id = 1:332) {
   }
   
   # Prepare data frame with header "id", "nobs"
-  data.frame(id = v_cc_id, nobs = v_cc_sum)
+  return(data.frame(id = v_cc_id, nobs = v_cc_sum))
 }
