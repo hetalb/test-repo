@@ -15,3 +15,4 @@ pollutemean <- function(dir, pollutant, id = 1:332) {
   mean_poll <- mean(total_df[[pollutant]], na.rm = TRUE)
   print (mean_poll)
 }
+
